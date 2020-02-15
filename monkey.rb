@@ -2,16 +2,16 @@
 class Monkey < Formula
   desc "https://github.com/bradford-hamilton/monkey-lang."
   homepage ""
-  version "0.2.5"
+  version "0.3.0"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/bradford-hamilton/monkey-lang/releases/download/v0.2.5/monkey-lang_0.2.5_Darwin_x86_64.tar.gz"
-    sha256 "adc6153b276fc427d3e91b75ace5b093f1660db4cf4bf5e32f59ae7821dcf153"
+    url "https://github.com/bradford-hamilton/monkey-lang/releases/download/v0.3.0/monkey-lang_0.3.0_Darwin_x86_64.tar.gz"
+    sha256 "c28d52e0105dc64a0ed2ed5a08701314a391fba88784fdfbcf8b8332ce6922be"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/bradford-hamilton/monkey-lang/releases/download/v0.2.5/monkey-lang_0.2.5_Linux_x86_64.tar.gz"
-      sha256 "b8c2ca66ba11d8218811cf4f5165580e1e5980d2743d2cfc8868507889a7d0d0"
+      url "https://github.com/bradford-hamilton/monkey-lang/releases/download/v0.3.0/monkey-lang_0.3.0_Linux_x86_64.tar.gz"
+      sha256 "2a19876f62050707bd84b33dc3077484273feb0401cca7ac8c8ac7d655b2ad23"
     end
   end
   
